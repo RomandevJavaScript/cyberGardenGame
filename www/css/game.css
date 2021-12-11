@@ -1,0 +1,50 @@
+body{
+    background: url("../img/background.jpg") no-repeat center fixed;     
+    background-size: cover;
+    width: 100%;
+    padding: 0px;
+}
+
+#leftSide{
+    height: 100%;
+}
+
+#rightSide{
+    left: 50%;
+    height: 100%;
+}
+
+#separation{
+    left: 45%;
+    height: 100%;
+}
+
+img{
+   position: absolute;
+   width: 100px;
+   height: 100px;
+}
+div{
+   position: absolute;
+   width:500px; height:500px;
+}
+
+#stopwatch {
+    font-size: 6em;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background: #e4fc0d;
+    color: white;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    z-index: 1;
+}
+
+@media screen and (min-width: 800px) {
+    #stopwatch {
+        font-size: 4em;
+    }
+  } 
+
